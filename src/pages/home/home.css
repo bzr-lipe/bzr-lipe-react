@@ -1,0 +1,91 @@
+.home{
+    padding: 0px 200px;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+.hero {
+    display: inline-block;
+    width: 100%;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.hero h1 {
+    color: #00ADB5;
+}
+
+.frontend{
+    background-color: #00ADB5;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.frontend p {
+    margin: 0!important;
+}
+
+.hero p, .hero div {
+    margin-left: 52px;
+}
+
+.arrow-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+}
+
+.arrow-scroll p {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9b9b9b;
+}
+
+
+
+.arrow-scroll .icon{
+    color: #00ADB5;
+    font-size: 30px;
+    animation: arrow-animation 3s infinite;
+}
+
+@keyframes arrow-animation {
+    0% {
+      margin-bottom: 0;
+    }
+
+    25% {
+        margin-bottom: 5px;
+    }
+
+    50%{
+        margin-bottom: 0;   
+    }
+
+    75%{
+        margin-bottom: 5px;
+    }
+  
+    100% {
+        margin-bottom: 0;
+    }
+  }
+  
