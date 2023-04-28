@@ -1,6 +1,8 @@
 .home{
     padding: 0px 200px;
-}
+}  
+
+
 
 .header {
     height: 100vh;
@@ -64,28 +66,16 @@ p{
 .arrow-scroll .icon{
     color: #00ADB5;
     font-size: 30px;
-    animation: arrow-animation 3s infinite;
 }
-
-@keyframes arrow-animation {
-    0% {
-      margin-bottom: 0;
+  /* **********************************mobile-celular *********************/
+  @media only screen and (max-width: 600px) {
+    .home{
+        padding:30px;
+    }
+    
+    .hero p, .hero div {
+        margin-left: 0;
     }
 
-    25% {
-        margin-bottom: 5px;
-    }
 
-    50%{
-        margin-bottom: 0;   
-    }
-
-    75%{
-        margin-bottom: 5px;
-    }
-  
-    100% {
-        margin-bottom: 0;
-    }
-  }
-  
+  } 
